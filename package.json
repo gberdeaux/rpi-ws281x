@@ -1,6 +1,6 @@
 {
-  "name": "rpi-ws281x",
-  "version": "1.0.36",
+  "name": "ws281x-pi",
+  "version": "1.0.0",
   "description": "rpi-ws281x",
   "main": "index.js",
   "scripts": {
@@ -21,15 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meg768/rpi-ws281x.git"
+    "url": "git+https://github.com/gberdeaux/rpi-ws281x.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/meg768/rpi-ws281x/issues"
+    "url": "https://github.com/gberdeaux/rpi-ws281x/issues"
   },
   "dependencies": {
-    "nan": "^2.14.0"
+    "nan": "^2.14.2"
   },
-  "homepage": "https://github.com/meg768/rpi-ws281x#readme"
+  "homepage": "https://github.com/gberdeaux/rpi-ws281x#readme"
 }
