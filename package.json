@@ -1,5 +1,5 @@
 {
-  "name": "ws281x-pi",
+  "name": "@gberdeaux/ws281x",
   "version": "1.0.0",
   "description": "rpi-ws281x",
   "main": "index.js",
