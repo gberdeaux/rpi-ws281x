@@ -100,6 +100,14 @@ class Module {
             addon.render(pixels, this.map);
         }
     }
+
+    fill(color) {
+	pixels = new Uint32Array(this.leds);
+	for (let i = 0; i < this.leds; i++) {
+	    pixels[i] = color;
+	}
+	this.render(pixels);
+    }
 }
 
 
